@@ -10,7 +10,6 @@ function App() {
       setTodos([...todos,item]);
       document.getElementById("todoItem").value = "";
     }
-    console.log("todos : ", todos);
   }
 
   const deleteItem = (item) => {
